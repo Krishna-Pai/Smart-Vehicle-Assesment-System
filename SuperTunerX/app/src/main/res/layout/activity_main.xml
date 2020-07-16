@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#b0003a"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/damion"
+        android:gravity="center"
+        android:text="SuperTuner"
+        android:textColor="#fff"
+        android:textSize="43sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_marginBottom="20sp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:inputType="textEmailAddress"
+        android:text="Enter your Email ID"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="294dp"
+        android:padding="22sp"
+        android:layout_marginTop="10sp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:inputType="textPassword"
+        android:text="Enter your Password"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="353dp"
+        android:padding="22sp"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e91e63"
+        android:fontFamily="@font/montserrat"
+        android:padding="10sp"
+        android:text="LOGIN"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="416dp"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="New to SuperTuner?"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="525dp"
+        android:layout_marginTop="33sp"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e91e63"
+        android:fontFamily="@font/montserrat"
+        android:padding="10sp"
+        android:text="SIGN UP"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+
+</LinearLayout>

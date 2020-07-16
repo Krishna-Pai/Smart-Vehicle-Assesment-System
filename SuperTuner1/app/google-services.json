@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "684322423069",
+    "firebase_url": "https://supertuner-2e1a9.firebaseio.com",
+    "project_id": "supertuner-2e1a9",
+    "storage_bucket": "supertuner-2e1a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684322423069:android:a8cd6d2c01f5baed",
+        "android_client_info": {
+          "package_name": "com.mastermindz.supertuner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684322423069-uljcj7oebsphqjeilvaebuqc2v8f2oh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoL-Hp7GPS-sYRCz0bQIUuHxW4OiR-74E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684322423069-uljcj7oebsphqjeilvaebuqc2v8f2oh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BluetoothList"
+    android:background="#D63434">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is your OBD Adapter Paired?"
+        android:textSize="33sp"
+        android:padding="20sp"
+        android:id="@+id/rl1"
+        android:fontFamily="@font/helveticaneue_medium"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please scroll through the list whether OBD Adapter is present or not."
+        android:textSize="20sp"
+        android:padding="20sp"
+        android:id="@+id/rl2"
+        android:layout_below="@id/rl1"
+        android:textColor="#fff"
+        android:fontFamily="@font/helveticaneue_light"/>
+
+    <TextView
+        android:id="@+id/r11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl2"
+        android:layout_marginTop="-1dp"
+        android:padding="20sp"
+        android:fontFamily="@font/helveticaneuebd"
+        android:textColor="#fff"
+        android:text="If OBD adapter is found from the list, please tap on it." />
+
+    <ScrollView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:layout_below="@id/r11"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/devicelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+    <TextView
+        android:layout_below="@id/list"
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:textColor="#fff"
+        android:fontFamily="@font/helveticaneuebd"
+        android:text="If OBD Adapter is not present in the list then search for the device
+by going to your bluetooth settings and pair the device.If the device asks for the PIN enter
+0000 or 1234."/>
+
+
+
+</RelativeLayout>

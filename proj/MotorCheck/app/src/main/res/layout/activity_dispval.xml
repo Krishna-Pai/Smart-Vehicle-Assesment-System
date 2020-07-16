@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D63434"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/dispmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneue_medium"
+        android:padding="30sp"
+        android:text="Displaying Values being retrieved from the device."
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneue_light"
+        android:text="Ambient Air temperature"
+        android:layout_below="@+id/dispmsg"
+        android:id="@+id/amb_Air_temp"
+        android:textColor="#fff"
+        android:padding="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneuebd"
+        android:text="00"
+        android:layout_below="@+id/amb_Air_temp"
+        android:id="@+id/aaval"
+        android:textColor="#fff"
+        android:padding="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneue_light"
+        android:text="Fuel Level"
+        android:layout_below="@+id/aaval"
+        android:id="@+id/fuellvltxt"
+        android:textColor="#fff"
+        android:padding="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneuebd"
+        android:text="00"
+        android:layout_below="@+id/fuellvltxt"
+        android:id="@+id/fuellvlval"
+        android:textColor="#fff"
+        android:padding="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneue_light"
+        android:text="Barometric Fuel Pressure"
+        android:layout_below="@+id/fuellvlval"
+        android:id="@+id/brtxt"
+        android:textColor="#fff"
+        android:padding="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneuebd"
+        android:text="00"
+        android:layout_below="@+id/brtxt"
+        android:id="@+id/brval"
+        android:textColor="#fff"
+        android:padding="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneue_light"
+        android:text="Air Intake Temperature"
+        android:layout_below="@+id/brval"
+        android:id="@+id/aiatext"
+        android:textColor="#fff"
+        android:padding="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneuebd"
+        android:text="00"
+        android:layout_below="@+id/aiatext"
+        android:id="@+id/aiaval"
+        android:textColor="#fff"
+        android:padding="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneue_light"
+        android:text="Trouble Codes conf"
+        android:layout_below="@+id/aiaval"
+        android:id="@+id/dtctxt"
+        android:textColor="#fff"
+        android:padding="20sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#D63434">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneue_light"
+        android:padding="10dp"
+        android:text="Enter your details to get started"
+        android:textColor="#fff"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="#fff">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/helveticaneuebd"
+                android:padding="10dp"
+                android:text="Enter your Full Name*"
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="19dp"
+                android:textColor="#fff"/>
+
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:fontFamily="@font/helveticaneue_medium"
+                android:hint="Full Name"
+                android:textColorHint="#fff"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:paddingBottom="16dp"
+                tools:layout_editor_absoluteX="19dp"
+                tools:layout_editor_absoluteY="73dp"
+                android:textColor="#fff"
+                android:focusedByDefault="true"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13sp"
+                android:text="Enter your Email*"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:fontFamily="@font/helveticaneuebd"
+                android:textColor="#fff"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:ems="10"
+                android:textColor="#fff"
+                android:hint="Enter your Email Address"
+                android:fontFamily="@font/helveticaneue_medium"
+                android:textColorHint="#fff"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Password*"
+                android:layout_marginTop="13sp"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:fontFamily="@font/helveticaneuebd"
+                android:textColor="#fff"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:layout_marginTop="13sp"
+                android:padding="10dp"
+                android:fontFamily="@font/helveticaneue_medium"
+                android:textColorHint="#fff"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your License Plate Number*"
+                android:layout_marginTop="13sp"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:fontFamily="@font/helveticaneuebd"
+                android:textColor="#fff"/>
+
+            <EditText
+                android:id="@+id/licpltnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="License Plate Number"
+                android:layout_marginTop="13sp"
+                android:padding="10dp"
+                android:fontFamily="@font/helveticaneue_medium"
+                android:textColorHint="#fff"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Vehicle model name*"
+                android:layout_marginTop="13sp"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:fontFamily="@font/helveticaneuebd"
+                android:textColor="#fff"/>
+
+            <EditText
+                android:id="@+id/vehmod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Vehicle Model Name"
+                android:layout_marginTop="13sp"
+                android:padding="10dp"
+                android:fontFamily="@font/helveticaneue_medium"
+                android:textColorHint="#fff"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/helveticaneuebd"
+                android:text="Register"
+                android:background="#DF2518"
+                android:textColor="#fff"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="509dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
